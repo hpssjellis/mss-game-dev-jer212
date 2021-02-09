@@ -10,6 +10,10 @@ https://hpssjellis.github.io/mss-game-dev-jer212/public/index.html
 -------------------------------------------------
 
 ## Period 2
+
+
+
+
 ### Gr 11
 
 
@@ -20,6 +24,10 @@ Nathan
 
 
 Felicia
+
+Shaan https://shaan-james.github.io/mss-game-dev-222/public/index.html
+
+
 
 Nima https://nima-82.github.io/mss-game-dev/public/index.html
 
