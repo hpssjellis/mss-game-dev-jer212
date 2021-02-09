@@ -7,8 +7,24 @@ My Website
 https://hpssjellis.github.io/mss-game-dev-jer212/public/index.html
 
 
+-------------------------------------------------
+
+## Period 2
+### Gr 11
 
 
+
+
+### Gr 12
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+## Period 3
+### Gr 11
 
 Jeran
 
@@ -66,7 +82,8 @@ Eddie   https://edster1121.github.io/mss-game-dev-edd/public/index.html
 Caleb
 
 
----------------- 12 -----------------
+## Period 3
+### Gr 12
 
 Hunter
 
