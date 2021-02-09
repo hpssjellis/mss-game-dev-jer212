@@ -54,7 +54,7 @@ Lim N   https://infernaldeoxys.github.io/MSS-Game-Development-2/public/index.htm
 Sam   GITHUB only   https://github.com/samsimpsonn/G12-sam-simpson
 
 
-Kai
+Kai   https://kai-tes.github.io/Mss-Game-Dev-12/public/index.html
 
 
 Logan T
