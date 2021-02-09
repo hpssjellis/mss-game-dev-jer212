@@ -96,10 +96,10 @@ Jae Hee   https://jaechu03.github.io/mss-game-dev-jae2021/public/index.html
 
 
 Josh   https://joshfunk.github.io/Josh-coding-2021/public/index.html  
-       https://joshfunk.github.io/Josh-coding-2021/public/index.html
 
 
-Lance
+
+Lance  https://garuransu.github.io/G_ransu/public/index.html
 
 Trent   https://username1296.github.io/Klimmer-Productions/public/index.html
 
