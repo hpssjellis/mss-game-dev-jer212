@@ -13,9 +13,59 @@ https://hpssjellis.github.io/mss-game-dev-jer212/public/index.html
 ### Gr 11
 
 
+Khalil  https://khalilayach.github.io/mss-game-dev-0001/public/Index.html
 
 
-### Gr 12
+Nathan
+
+
+Felicia
+
+Nima https://nima-82.github.io/mss-game-dev/public/index.html
+
+
+
+Eilan   https://myownboy.github.io/MSS-game-dev-64/public/index.html
+
+
+
+Ryan S
+
+
+Kanata
+
+
+James
+
+
+
+
+
+
+
+
+
+### Gr 12 Period 2
+
+Liam Mac    https://nouozd.github.io/Mss-game-dev-2021-Liam-M/public/index.html
+
+Lim N   https://infernaldeoxys.github.io/MSS-Game-Development-2/public/index.html
+
+Sam   GITHUB only   https://github.com/samsimpsonn/G12-sam-simpson
+
+
+Kai
+
+
+Logan T
+
+
+Tynan   https://tynan2020.github.io/mss-game-dev/public/index.html
+
+
+Dale   https://dalew-gamer.github.io/GameDev-2021-Dale/public/index.html
+
+
 
 
 
