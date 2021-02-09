@@ -75,4 +75,22 @@ Hunter
 Fisher   https://mariofish.github.io/fischer-coding-2021/public/index.html
 
 
+Jae Hee   https://jaechu03.github.io/mss-game-dev-jae2021/public/index.html
+
+
+Josh   https://joshfunk.github.io/Josh-coding-2021/public/index.html  
+       https://joshfunk.github.io/Josh-coding-2021/public/index.html
+
+
+Lance
+
+Trent   https://username1296.github.io/Klimmer-Productions/public/index.html
+
+Christian
+
+Harry
+
+Jacob
+
+Aaden W   https://transparentprism.github.io/Gamedev/public/index.html
 
