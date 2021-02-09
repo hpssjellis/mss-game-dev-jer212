@@ -57,7 +57,7 @@ Sam   GITHUB only   https://github.com/samsimpsonn/G12-sam-simpson
 Kai   https://kai-tes.github.io/Mss-Game-Dev-12/public/index.html
 
 
-Logan T
+Logan T   https://agoogol.github.io/g12-logant-game-dev/public/index.html
 
 
 Tynan   https://tynan2020.github.io/mss-game-dev/public/index.html
