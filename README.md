@@ -20,4 +20,23 @@ Sawyer
 Owen   https://owend817321.github.io/MSSGAMING2006/public/index.html
 
 
+Dylan
+
+Paige
+
+
+Rozan
+
+Jack    https://jack-cedar.github.io/mss-gamedev-jcedar/public/index.html
+
+Gab
+
+
+Angel
+
+
+Charles   https://ch-gentle.github.io/MSS-GameDev21-CH/public/index.html
+
+
+
 
