@@ -40,7 +40,7 @@ Eilan   https://myownboy.github.io/MSS-game-dev-64/public/index.html
 Ryan S   https://ryan-mss-19.github.io/mss-game-dev-222-Ryan/public/index.html
 
 
-Kanata
+Kanata   https://kanata-yamada.github.io/2483765/public/index.html
 
 
 James
