@@ -43,7 +43,7 @@ Ryan S   https://ryan-mss-19.github.io/mss-game-dev-222-Ryan/public/index.html
 Kanata   https://kanata-yamada.github.io/2483765/public/index.html
 
 
-James
+James   only github   https://github.com/scrohmp/mss-game-dev-123
 
 
 
