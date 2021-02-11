@@ -9,12 +9,7 @@ https://hpssjellis.github.io/mss-game-dev-jer212/public/index.html
 
 -------------------------------------------------
 
-## Period 2
-
-
-
-
-### Gr 11
+## Period 2  ### Gr 11
 
 
 Khalil  https://khalilayach.github.io/mss-game-dev-0001/public/Index.html
@@ -81,8 +76,7 @@ Dale   https://dalew-gamer.github.io/GameDev-2021-Dale/public/index.html
 
 --------------------------------------------------------------------------------
 
-## Period 3
-### Gr 11
+## Period 3  Gr 11
 
 Jeran
 
@@ -131,19 +125,18 @@ Ayden T
 Jaiden
 
 
-Patrick
+Patrick  https://pat004.github.io/MSSGameDev4/public/index.html
 
 
 Eddie   https://edster1121.github.io/mss-game-dev-edd/public/index.html
 
 
-Caleb
+Caleb   https://calebmss.github.io/-Mss-Game-Dev-12/public/index.html
+ 
 
+## Period 3  Gr 12
 
-## Period 3
-### Gr 12
-
-Hunter
+Hunter   https://hunterbarratt.github.io/mss-game-dev-hunter/public/index.html
 
 
 
@@ -165,7 +158,7 @@ Christian
 
 Harry
 
-Jacob
+Jacob  https://blopman5002.github.io/mms-game-dev-jake/public/index.html
 
 Aaden W   https://transparentprism.github.io/Gamedev/public/index.html
 
