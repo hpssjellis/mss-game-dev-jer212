@@ -55,7 +55,7 @@ Liam Mac    https://nouozd.github.io/Mss-game-dev-2021-Liam-M/public/index.html
 
 Lim N   https://infernaldeoxys.github.io/MSS-Game-Development-2/public/index.html
 
-Sam   GITHUB only   https://github.com/samsimpsonn/G12-sam-simpson
+Sam   https://samsimpsonn.github.io/G12-sam-simpson/public/index.html
 
 
 Kai   https://kai-tes.github.io/Mss-Game-Dev-12/public/index.html
