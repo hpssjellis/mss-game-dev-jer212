@@ -22,6 +22,7 @@ Felicia https://mss250.github.io/mms-game-dev-211/public/index.html
 
 Shaan https://shaan-james.github.io/mss-game-dev-222/public/index.html
 
+Izaiah
 
 
 Nima https://nima-82.github.io/mss-game-dev/public/index.html
