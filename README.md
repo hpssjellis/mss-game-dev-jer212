@@ -94,11 +94,10 @@ Dylan  https://punchabrick.github.io/MSSGAMING2004/public/index.html
 Paige
 
 
-Rozan
 
 Jack    https://jack-cedar.github.io/mss-gamedev-jcedar/public/index.html
 
-Gab
+Gab   https://gabrielkwidzinski.github.io/mss-game-dev-123/public/index.html
 
 
 Angel
