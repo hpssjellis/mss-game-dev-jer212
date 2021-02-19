@@ -100,7 +100,7 @@ Jack    https://jack-cedar.github.io/mss-gamedev-jcedar/public/index.html
 Gab   https://gabrielkwidzinski.github.io/mss-game-dev-123/public/index.html
 
 
-Angel
+Angel    github only   https://github.com/s0urberryangel/mss-game-dev-angel
 
 
 
