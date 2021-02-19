@@ -22,7 +22,7 @@ Felicia https://mss250.github.io/mms-game-dev-211/public/index.html
 
 Shaan https://shaan-james.github.io/mss-game-dev-222/public/index.html
 
-Izaiah
+Izaiah 
 
 
 Nima https://nima-82.github.io/mss-game-dev/public/index.html
@@ -39,7 +39,7 @@ Ryan S   https://ryan-mss-19.github.io/mss-game-dev-222-Ryan/public/index.html
 Kanata   https://kanata-yamada.github.io/2483765/public/index.html
 
 
-James   only github   https://github.com/scrohmp/mss-game-dev-123
+James   https://scrohmp.github.io/mss-game-dev-123/public/index.html
 
 
 
