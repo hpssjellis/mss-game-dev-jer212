@@ -131,12 +131,12 @@ Patrick  https://pat004.github.io/MSSGameDev4/public/index.html
 Eddie   https://edster1121.github.io/mss-game-dev-edd/public/index.html
 
 
-Caleb   https://calebmss.github.io/-Mss-Game-Dev-12/public/index.html
  
 
 ## Period 3  Gr 12
 
-Caleb  --------
+
+Caleb   https://calebmss.github.io/-Mss-Game-Dev-12/public/index.html
 
 Hunter   https://hunterbarratt.github.io/mss-game-dev-hunter/public/index.html
 
