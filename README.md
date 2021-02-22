@@ -79,7 +79,7 @@ Dale   https://dalew-gamer.github.io/GameDev-2021-Dale/public/index.html
 
 ## Period 3  Gr 11
 
-Jeran
+Jeran   Mark from oneDrive
 
 
 
@@ -118,7 +118,7 @@ Ayden N    https://ssj2aydan.github.io/mss-game-dev-Aydan2021/public/index.html
 Prabh
 
 
-Natasha
+Natasha  https://mss4050.github.io/mss-game-dev-Nat2021/public/index.html
 
 Ayden T   https://mss821.github.io/mss-game-dev-the/public/index.html
 
