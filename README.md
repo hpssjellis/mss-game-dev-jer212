@@ -94,7 +94,7 @@ Owen   https://owend817321.github.io/MSSGAMING2006/public/index.html
 
 Dylan  https://punchabrick.github.io/MSSGAMING2004/public/index.html
 
-Paige https://communistunicorn.github.io/mss-game-dev-2021/public/Index.html
+Paige https://communistunicorn.github.io/mss-game-dev-2021/public/index.html
 
 
 
