@@ -155,7 +155,7 @@ Fisher   https://mariofish.github.io/fischer-coding-2021/public/index.html
 Jae Hee   https://jaechu03.github.io/mss-game-dev-jae2021/public/index.html
 
 
-Josh WebSite:  https://joshfunk.github.io/Josh-coding-2021/public/index.html  
+Josh WebSite:  https://joshfunk.github.io/Josh-coding-2021-public/public/index.html
        REPO: https://github.com/Joshfunk/Josh-coding-2021-public
 
 
