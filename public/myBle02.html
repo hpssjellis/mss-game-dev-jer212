@@ -20,18 +20,36 @@ const connectToDeviceAndSubscribeToUpdates33 = async () => {
 
 connectToDeviceAndSubscribeToUpdates = async function(){ 
   // const device = await navigator.bluetooth.requestDevice({ filters: [{ namePrefix: 'Thun', services: ['battery_service'],   }]  });
-   const device = await navigator.bluetooth.requestDevice({filters: [{ namePrefix: 'Thun'}], optionalServices: ['battery_service', '162348d9-d5a8-4870-8086-8e152fd06a92']   });
+   //const device = await navigator.bluetooth.requestDevice({filters: [{ namePrefix: 'Thun'}], optionalServices: ['battery_service', '162348d9-d5a8-4870-8086-8e152fd06a92']   });
   // const device = await navigator.bluetooth.requestDevice({filters: [{ namePrefix: 'Thun', services: ['battery_service']  }   ]}  );
   // const device = await navigator.bluetooth.requestDevice({filters: [{ name: 'Thunderboard #43147'}], services: ['battery_service']  });
   // const device = await navigator.bluetooth.requestDevice({filters: [{ id: '7ehTSz/c6M6e3HG1pyFPLA=='}], services: ['battery_service']  });
+   const device = await navigator.bluetooth.requestDevice({
+  acceptAllDevices: true,
+  optionalServices: ['battery_service', '162348d9-d5a8-4870-8086-8e152fd06a92']
+})
 
-
+console.log('device');
+console.log(device);
   // const device = await navigator.bluetooth.requestDevice({filters: [{ name: 'Thunderboard #43147', services: ['battery_service']    }] });
     
 
    const server = await device.gatt.connect();
+   console.log('server')
+   console.log(server)
+
+
    const service = await server.getPrimaryService('battery_service');
+
+   console.log('service')
+   console.log(service)
+
    const characteristic = await service.getCharacteristic('battery_level');
+
+   console.log('characteristic')
+
+   console.log(characteristic)
+
   // characteristic.startNotifications();
   // characteristic.addEventListener('characteristicvaluechanged', handleCharacteristicValueChanged);
    const reading = await characteristic.readValue();
