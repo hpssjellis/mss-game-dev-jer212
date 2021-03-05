@@ -1,5 +1,6 @@
 
-<h3>Version: 0.1.6</h3>  
+
+<h3>Version: 0.1.8</h3>  
 
 <script>
  var bluetoothDevice;
@@ -27,10 +28,34 @@ async function requestDevice() {
     filters: [{
     namePrefix: 'Thun'
   }],
-      acceptAllDevices: true,
       optionalServices: ['battery_service']});
   bluetoothDevice.addEventListener('gattserverdisconnected', onDisconnected);
 }
+async function requestNamedDevice() {
+  console.log('Requesting any Bluetooth Device...');
+  bluetoothDevice = await navigator.bluetooth.requestDevice({
+   // filters: [...] <- Prefer filters to save energy & show relevant devices.
+   
+    filters: [{
+    name: 'Thunderboard #43147'
+  }],
+      optionalServices: ['battery_service']});
+  bluetoothDevice.addEventListener('gattserverdisconnected', onDisconnected);
+}
+
+async function requestIdDevice() {
+  console.log('Requesting any Bluetooth Device...');
+  bluetoothDevice = await navigator.bluetooth.requestDevice({
+   // filters: [...] <- Prefer filters to save energy & show relevant devices.
+   
+    filters: [{
+    id: '7ehTSz/c6M6e3HG1pyFPLA=='
+  }],
+      optionalServices: ['battery_service']});
+  bluetoothDevice.addEventListener('gattserverdisconnected', onDisconnected);
+}
+
+
 
 async function connectDeviceAndCacheCharacteristics() {
   if (bluetoothDevice.gatt.connected && batteryLevelCharacteristic) {
@@ -106,7 +131,6 @@ async function onDisconnected() {
   }
 } 
   
- 
 </script>
   
 <h1 align=center> BLE test page </h1>
@@ -129,12 +153,12 @@ async function onDisconnected() {
   }">
 
 
-  <input type=button value="" onclick="{ 
-                                       
+  <input type=button value="requestIdDevice()" onclick="{ 
+       requestIdDevice()                                
   }">
 
-  <input type=button value="" onclick="{ 
-                                       
+  <input type=button value="requestNamedDevice()" onclick="{ 
+         requestNamedDevice()                                   
   }">
 
   <input type=button value="onResetButtonClick()" onclick="{ 
@@ -148,68 +172,6 @@ async function onDisconnected() {
   <input type=button value="requestDevice()" onclick="{ 
      requestDevice()
   }">
-
-
-
-
-<script>
-  var ChromeSamples = {
-    console.log: function() {
-      var line = Array.prototype.slice.call(arguments).map(function(argument) {
-        return typeof argument === 'string' ? argument : JSON.stringify(argument);
-      }).join(' ');
-
-      document.querySelector('#console.log').textContent += line + '\n';
-    },
-
-    clearconsole.log: function() {
-      document.querySelector('#console.log').textContent = '';
-    },
-
-    setStatus: function(status) {
-      document.querySelector('#status').textContent = status;
-    },
-
-    setContent: function(newContent) {
-      var content = document.querySelector('#content');
-      while(content.hasChildNodes()) {
-        content.removeChild(content.lastChild);
-      }
-      content.appendChild(newContent);
-    }
-  };
-</script>
-
-<h3>Live Output</h3>
-<div id="output" class="output">
-  <div id="content"></div>
-  <div id="status"></div>
-  <pre id="console.log"></pre>
-</div>
-
-
-
-Use the link to get your device id and name<br>
-<a href="https://googlechrome.github.io/samples/web-bluetooth/device-info-async-await.html?allDevices=true">https://googlechrome.github.io/samples/web-bluetooth/device-info-async-await.html?allDevices=true</a>
-
-
-
-
-
-  filters: [{
-    namePrefix: 'Thun'
-  }],
-  optionalServices: ['battery_service']
-})
-
-  filters: [{
-    name: 'Francois robot'
-  }],
-  optionalServices: ['battery_service']
-})
-
-namePrefix
-
 
 
 
