@@ -19,20 +19,31 @@ const connectToDeviceAndSubscribeToUpdates33 = async () => {
 
 
 connectToDeviceAndSubscribeToUpdates = async function(){ 
-   const device = await navigator.bluetooth.requestDevice({filters: [{ namePrefix: 'Thun'}], services: ['battery_service']  });
+  // const device = await navigator.bluetooth.requestDevice({ filters: [{ namePrefix: 'Thun', services: ['battery_service'],   }]  });
+   const device = await navigator.bluetooth.requestDevice({filters: [{ namePrefix: 'Thun'}], optionalServices: ['battery_service', '162348d9-d5a8-4870-8086-8e152fd06a92']   });
+  // const device = await navigator.bluetooth.requestDevice({filters: [{ namePrefix: 'Thun', services: ['battery_service']  }   ]}  );
+  // const device = await navigator.bluetooth.requestDevice({filters: [{ name: 'Thunderboard #43147'}], services: ['battery_service']  });
+  // const device = await navigator.bluetooth.requestDevice({filters: [{ id: '7ehTSz/c6M6e3HG1pyFPLA=='}], services: ['battery_service']  });
+
+
+  // const device = await navigator.bluetooth.requestDevice({filters: [{ name: 'Thunderboard #43147', services: ['battery_service']    }] });
+    
+
    const server = await device.gatt.connect();
    const service = await server.getPrimaryService('battery_service');
    const characteristic = await service.getCharacteristic('battery_level');
-   characteristic.startNotifications();
-   characteristic.addEventListener('characteristicvaluechanged', handleCharacteristicValueChanged);
+  // characteristic.startNotifications();
+  // characteristic.addEventListener('characteristicvaluechanged', handleCharacteristicValueChanged);
    const reading = await characteristic.readValue();
 
 
-   handleCharacteristicValueChanged(reading);
+   //handleCharacteristicValueChanged(reading);
    console.log('reading.getUint8(0) + %');
-   console.log(reading.getUint8(0) + '%');
+  // console.log(reading.getUint8(0) + '%');
    console.log('event');
-   console.log(event);
+  // console.log(event);
+   console.log('reading');
+   console.log(reading);
 };
 
 </script>
@@ -42,6 +53,39 @@ connectToDeviceAndSubscribeToUpdates = async function(){
   <input type=button value="Cool()" onclick="{ 
  //handleCharacteristicValueChanged(event)
  connectToDeviceAndSubscribeToUpdates()
+ 
+ }"><br><br>
+
+
+
+<input type=button value="Cool2()" onclick="{ 
+console.log('Requesting Bluetooth Device...');
+  navigator.bluetooth.requestDevice(
+    {filters: [{ namePrefix: 'Thun'}], optionalServices:{['battery_service', '162348d9-d5a8-4870-8086-8e152fd06a92']}   })
+  .then(device => {
+    console.log('Connecting to GATT Server...');
+    return device.gatt.connect();
+  })
+  .then(server => {
+    console.log('Getting Battery Service...');
+    return server.getPrimaryService('battery_service');
+  })
+  .then(service => {
+    console.log('Getting Battery Level Characteristic...');
+    return service.getCharacteristic('battery_level');
+  })
+  .then(characteristic => {
+    console.log('Reading Battery Level...');
+    return characteristic.readValue();
+  })
+  .then(value => {
+    let batteryLevel = value.getUint8(0);
+    console.log('> Battery Level is ' + batteryLevel + '%');
+  })
+  .catch(error => {
+    console.log('Argh! ' + error);
+  });
+}
  
  }"><br><br>
 
