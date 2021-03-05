@@ -1,5 +1,5 @@
 
-<h3>Version: 0.1.5</h3>  
+<h3>Version: 0.1.6</h3>  
 
 <script>
  var bluetoothDevice;
@@ -27,8 +27,6 @@ async function requestDevice() {
     filters: [{
     namePrefix: 'Thun'
   }],
-  optionalServices: ['battery_service']
-})
       acceptAllDevices: true,
       optionalServices: ['battery_service']});
   bluetoothDevice.addEventListener('gattserverdisconnected', onDisconnected);
