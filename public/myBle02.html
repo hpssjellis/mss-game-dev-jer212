@@ -4,7 +4,7 @@
 
 
 <script>
-const handleCharacteristicValueChanged = (event) => {
+handleCharacteristicValueChanged = async function(event) { 
    console.log(event.target.value.getUint8(0) + '%');
 };
 
@@ -18,15 +18,21 @@ const connectToDeviceAndSubscribeToUpdates33 = async () => {
 
 
 
-const connectToDeviceAndSubscribeToUpdates = async () => {
-   const device = await navigator.bluetooth.requestDevice({filters: [{ namePrefix: 'Thun', services: ['battery_service'] }]});
+connectToDeviceAndSubscribeToUpdates = async function(){ 
+   const device = await navigator.bluetooth.requestDevice({filters: [{ namePrefix: 'Thun'}], services: ['battery_service']  });
    const server = await device.gatt.connect();
    const service = await server.getPrimaryService('battery_service');
    const characteristic = await service.getCharacteristic('battery_level');
    characteristic.startNotifications();
    characteristic.addEventListener('characteristicvaluechanged', handleCharacteristicValueChanged);
    const reading = await characteristic.readValue();
+
+
+   handleCharacteristicValueChanged(reading);
+   console.log('reading.getUint8(0) + %');
    console.log(reading.getUint8(0) + '%');
+   console.log('event');
+   console.log(event);
 };
 
 </script>
@@ -44,6 +50,5 @@ from:
 
 <br>
 
-https://medium.com/going-fullstack/interact-with-bluetooth-devices-using-the-web-bluetooth-api-7984b2509939
+<a href="https://medium.com/going-fullstack/interact-with-bluetooth-devices-using-the-web-bluetooth-api-7984b2509939" >reference</a></a>
 
-<button onClick="connectToDeviceAndSubscribeToUpdates()">Connect to Bluetooth device</button>
