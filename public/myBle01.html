@@ -22,6 +22,12 @@ async function requestDevice() {
   log('Requesting any Bluetooth Device...');
   bluetoothDevice = await navigator.bluetooth.requestDevice({
    // filters: [...] <- Prefer filters to save energy & show relevant devices.
+   
+    filters: [{
+    namePrefix: 'Thun'
+  }],
+  optionalServices: ['battery_service']
+})
       acceptAllDevices: true,
       optionalServices: ['battery_service']});
   bluetoothDevice.addEventListener('gattserverdisconnected', onDisconnected);
@@ -104,7 +110,7 @@ async function onDisconnected() {
 </script>
   
 <h1 align=center> BLE test page </h1>
-<h3>Version: 0.1.0</h3>  
+<h3>Version: 0.1.1</h3>  
   
   <input type=button value="connectDeviceAndCacheCharacteristics()" onclick="{ 
      connectDeviceAndCacheCharacteristics()
@@ -184,6 +190,12 @@ async function onDisconnected() {
 
 
 
+
+  filters: [{
+    namePrefix: 'Thun'
+  }],
+  optionalServices: ['battery_service']
+})
 
   filters: [{
     name: 'Francois robot'
