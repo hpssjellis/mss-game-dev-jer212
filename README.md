@@ -123,7 +123,6 @@ Ayden N    https://ssj2aydan.github.io/mss-game-dev-Aydan2021/public/index.html
 
 Prabh
 
-Keegan  https://keegan5208.github.io/Game-Dev-2021/public/index.html
 
 Natasha  https://mss4050.github.io/mss-game-dev-Nat2021/public/index.html
 
@@ -163,6 +162,9 @@ Josh WebSite:  https://joshfunk.github.io/Josh-coding-2021-public/public/index.h
 Lance  https://garuransu.github.io/G_ransu/public/index.html
 
 Trent   https://username1296.github.io/Klimmer-Productions/public/index.html
+
+Keegan  https://keegan5208.github.io/Game-Dev-2021/public/index.html
+
 
 Christian https://christian-reid.github.io/mss-game-dev-222/Public/index.html
 
